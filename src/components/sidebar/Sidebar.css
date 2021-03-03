@@ -1,0 +1,45 @@
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+.wrapper {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+}
+
+#sidebar {
+    min-width: 100px;
+    max-width: 100px;
+    background: #a3d3a5;
+    color: #fff;
+    text-align: center;
+}
+
+#sidebar .sidebar-header {
+    padding: 20px;
+    background: #4a695b;
+    font-size: 3em;
+}
+
+#sidebar ul.components {
+    padding: 50px 0;
+}
+
+#sidebar a{
+    padding-bottom: 50px;
+    font-size: 1.5em;
+    display: block;
+}
+
+svg{
+    padding: 0 auto;
+    width: 30%;
+    height: 30%;
+}
+
+a, a:link, a:visited{
+    color: #fff;
+    cursor: pointer;
+}
