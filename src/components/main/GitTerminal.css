@@ -17,7 +17,7 @@
 .gitWindow{
     font-family: 'Monaco', 'Courier New';
     display: flex;
-    background: rgb(206, 206, 206);
+    background: rgb(230, 229, 229);
 }
 
 .gitTerminal{
@@ -46,7 +46,7 @@
 .test{
     position: absolute;
     padding-left: 100px;
-    background-color: skyblue;
+    background-color: #94C7B2;
     top: 50%;
     left: 50%;
     /* bring your own prefixes */

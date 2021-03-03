@@ -1,0 +1,53 @@
+#photography{
+    height: 100%;
+    margin-left: 100px;
+}
+
+.imgContainer {
+    width: 400px;
+    position: relative;
+}
+  
+.imgDescription {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    background: rgba(255, 255, 255, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1em;
+    transition: opacity .5s, visibility 5s;
+    bottom: 1.3em;
+
+}
+  
+.imgContainer:hover .imgDescription {
+    bottom: 1.3em;
+    opacity: 1;
+}
+  
+.imgName {
+    transition: .2s;
+    transform: translateY(3em);
+}
+  
+.imgContainer:hover .imgName {
+    transform: translateY(0);
+}
+
+.modal-backdrop{
+    backdrop-filter: grayscale(100%);
+    backdrop-filter: saturate(10%);
+    background-color: #1d161670;
+ }
+
+ .modal-backdrop.in{
+    opacity: 1 !important;
+ }
