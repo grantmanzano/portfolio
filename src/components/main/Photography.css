@@ -1,12 +1,14 @@
 #photography{
     height: 100%;
-    margin-left: 100px;
 }
 
+
 .imgContainer {
-    width: 400px;
+    margin-left: 100px;
+    width:  80%;
     position: relative;
 }
+
   
 .imgDescription {
     position: absolute;

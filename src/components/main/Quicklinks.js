@@ -6,7 +6,7 @@ export const Quicklinks = () => {
                     Résumé
                 </div>
                 <div className="col-6">
-                    <a target="_blank" href="../../resources/grantardenmanzano.pdf" download>grantardenmanzano.pdf</a>
+                    <a target="_blank" href="../../grantardenmanzano.pdf" download>grantardenmanzano.pdf</a>
                 </div>
             </div>
             <div className="row">

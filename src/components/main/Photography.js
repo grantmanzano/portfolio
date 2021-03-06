@@ -76,7 +76,7 @@ export const Photography = () => {
             modalBody.innerHTML = '';
             photoPathsArray.forEach(path => {
                 var newImage = document.createElement("img");
-                newImage.className = "img mb-4 float-right";
+                newImage.className = "img-fluid mb-4 float-right";
                 newImage.alt = "";
                 newImage.src = 'images/' + path;
                 modalBody.appendChild(newImage);
@@ -102,7 +102,7 @@ export const Photography = () => {
     }
 
     return (
-        <div id="photography" className="fullSection photography-section">
+        <div id="photography" className="fullSection photography-section container-fluid">
             <div className="row row-cols-3">
                 {getImages()}
             </div>
