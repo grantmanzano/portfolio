@@ -103,7 +103,7 @@ export const Photography = () => {
 
     return (
         <div id="photography" className="fullSection photography-section container-fluid">
-            <div className="row row-cols-3">
+            <div className="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
                 {getImages()}
             </div>
 
