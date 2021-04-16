@@ -8,7 +8,7 @@ class WorkExp extends React.Component {
     render() {
         return (
             <div id="workexperience" className="fullSectionForWork workexp-section">
-                <h1 className="title text-center">Work Experience</h1>
+                <h1 className="title text-center">Work</h1>
                 <div className="card border-0 workExpSize center">
                     <div className="card-body">
                         <div className="container">
