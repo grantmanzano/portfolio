@@ -1,6 +1,61 @@
 #workexperience{
-    margin-left: 100px;
+    position: relative;
 }
+
+.workExpSize{
+    width: 80%;
+    margin-left: 100px;
+    box-shadow: 0 20px 40px -5px black;
+}
+
+.fullSectionForWork{
+    height: 120vh;
+    padding: 5%;
+}
+
+
+@media(max-width: 1084px) {
+    .fullSectionForWork{
+        height: 145vh;
+    }
+}
+
+@media(max-width: 876px) {
+    .fullSectionForWork{
+        height: 160vh;
+    }
+}
+
+@media(max-width: 788px) {
+    .fullSectionForWork{
+        height: 180vh;
+    }
+}
+
+@media(max-width: 725px) {
+    .fullSectionForWork{
+        height: 200vh;
+    }
+}
+
+@media(max-width: 650px) {
+    .fullSectionForWork{
+        height: 220vh;
+    }
+}
+
+@media(max-width: 619px) {
+    .fullSectionForWork{
+        height: 230vh;
+    }
+}
+
+@media(max-width: 600px) {
+    .fullSectionForWork{
+        height: 250vh;
+    }
+}
+
 
 .bold{
     margin: 0px;

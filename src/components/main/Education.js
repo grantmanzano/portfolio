@@ -8,8 +8,8 @@ class Education extends React.Component {
     render() {
         return (
             <div id="education" className="fullSection education-section">
-                <h3>Education</h3>
-                <div className="card">
+                <h1 className="title text-center">Education</h1>
+                <div className="card border-0 educationSize center">
                     <div className="card-body">
                         <EduComp name="Dawson College" year="2016-2020" description="Computer Science, D.E.C." location="Montreal, Canada" />
                         <div className="container">

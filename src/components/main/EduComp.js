@@ -1,6 +1,8 @@
+import './Education.css';
+
 export const EduComp = (props) => {
     return (
-        <div className="container">
+        <div className="container boxUnderline">
             <div className="row">
                 <div className="col-8">
                     {props.name}

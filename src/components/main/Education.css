@@ -1,3 +1,13 @@
 #education{
+    position: relative;
+}
+
+.educationSize{
+    width: 80%;
     margin-left: 100px;
+    box-shadow: 0 20px 40px -5px black;
+}
+
+.eduCompSpace{
+    margin: 50px;
 }

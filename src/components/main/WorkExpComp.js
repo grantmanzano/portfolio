@@ -8,10 +8,10 @@ export const WorkExpComp = (props) => {
     return (
         <div className="row">
             {otherExp}
-            <div className="col-8">
+            <div className="col-12 col-sm-8 col-lg-8">
                 <p className="bold">{props.name}</p>
             </div>
-            <div className="col-4 text-end">
+            <div className="col-12 col-sm-4 col-lg-4 text-end">
                 {props.date}
             </div>
             <div className="col-12">

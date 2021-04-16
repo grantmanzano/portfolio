@@ -4,14 +4,26 @@ import { Link } from 'react-scroll';
 
 class Sidebar extends React.Component {
     state = {};
+
+    isMobile() {
+        // credit to Timothy Huang for this regex test: 
+        // https://dev.to/timhuang/a-simple-way-to-detect-if-browser-is-on-a-mobile-device-with-javascript-44j3
+        if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+            return true
+        }
+        else {
+            return false
+        }
+    }
+
     render() {
-        return (
-            <div className="wrapper">
-                <nav id="sidebar">
-                    <div className="sidebar-header">
-                        G
-                    </div>
-                    <div className="">
+        if (!this.isMobile()) {
+            return (
+                <div className="wrapper">
+                    <nav id="sidebar">
+                        <div className="sidebar-header">
+                            G
+                        </div>
                         <ul className="list-unstyled components" id="homeSubmenu" >
 
                             {/**PROFILE */}
@@ -81,11 +93,21 @@ class Sidebar extends React.Component {
                                 </a>
                             </Link>
                         </ul>
-                    </div>
+                    </nav>
+                </div >
+            );
+        } else {
+            return(
+            <div className="wrapper">
+                <nav >
+
+
                 </nav>
-            </div >
-        );
+            </div>
+            );
+        }
     }
+
 }
 
 export default Sidebar;

@@ -6,6 +6,7 @@
     display: flex;
     position: fixed;
     height: 100%;
+    z-index: 1;
 }
 
 #sidebar {
@@ -18,7 +19,7 @@
 
 #sidebar .sidebar-header {
     padding: 20px;
-    background: #87A9AB;
+    background: #7D84B2;
     font-size: 3em;
 }
 

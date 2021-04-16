@@ -10,7 +10,7 @@ class GitTerminal extends React.Component {
         return (
             <div id="gitTerminal">
                 <div className="fullSection git-section">
-                    <div className="card border-0 terminalSize">
+                    <div className="card border-0 terminalSize center">
                         <span className="card-header gitWindow">grantmanzano.exe</span>
                         <div className="card-body gitTerminal">
                             <div>
