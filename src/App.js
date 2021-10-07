@@ -8,10 +8,10 @@ import {Photography} from './components/main/Photography.js';
 export const App = () => {
   return (
     <div className="">
-      <Sidebar/>
+      {/**<Sidebar />**/}
       <GitTerminal/>
-      <Education/>
-      <WorkExp/>
+      {/**<Education/>
+      <WorkExp/> **/}
       <Photography/>
     </div>
   );

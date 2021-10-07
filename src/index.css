@@ -65,20 +65,20 @@ h1:hover {
 }
 
 .fullSection{
-  padding: 5%;
   height: 100vh;
 }
 
 .fullSection.git-section{
-  background-color: #F9F9ED;
+  /*background-color: #B8D8BA; Initial green color at the start of project*/
+  background-color: white;
 }
 
 .education-section{
-  background-color: #E2E4F4;
+  background-color: #D4F8FD;
 }
 
 .workexp-section{
-  background-color: #8E9DCC;
+  background-color: #DAFBED;
 }
 
 .photography-section{

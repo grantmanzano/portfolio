@@ -19,7 +19,9 @@
 }
 
 .terminalSize{
-    margin-left: 50px;
+    
+    /*margin-left: 50px; Used to have the terminal 
+    slightly on the right if we're using the side menubar*/
     width: 60%;
 }
 
