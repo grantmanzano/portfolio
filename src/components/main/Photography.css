@@ -1,14 +1,25 @@
+@media (min-width: 576px){
+    .modal-dialog {
+        max-width: 595px;
+        margin: .2rem auto;
+    }
+}
+
 #photography{
     height: 100%;
 }
-
 
 .imgContainer {
     width:  100%;
     position: relative;
 }
 
-  
+.imgInModal{
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
 .imgDescription {
     position: absolute;
     top: 0;
@@ -26,7 +37,6 @@
     letter-spacing: 1em;
     transition: opacity .5s, visibility 5s;
     bottom: 1.3em;
-
 }
   
 .imgContainer:hover .imgDescription {
@@ -44,10 +54,9 @@
 }
 
 .modal-backdrop{
-    backdrop-filter: grayscale(100%);
-    backdrop-filter: saturate(10%);
-    background-color: #1d161670;
- }
+    opacity: 0.9 !important;
+    background-color: black;
+}
 
  .modal-backdrop.in{
     opacity: 1 !important;

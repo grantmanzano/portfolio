@@ -72,11 +72,11 @@ export const Photography = () => {
             var photoPathsString = photo.getAttribute('data-bs-paths');
 
             var photoPathsArray = photoPathsString.split(',');
-            let modalBody = document.getElementById('modalBody');
+            let modalBody = document.getElementsByClassName('modal-body')[0];
             modalBody.innerHTML = '';
             photoPathsArray.forEach(path => {
                 var newImage = document.createElement("img");
-                newImage.className = "img-fluid mb-4 float-right";
+                newImage.className = "imgInModal";
                 newImage.alt = "";
                 newImage.src = 'images/' + path;
                 modalBody.appendChild(newImage);
@@ -88,7 +88,7 @@ export const Photography = () => {
             imgCollection.push(
                 <div className="col">
                     <div className="imgContainer" key={image.key}>
-                        <img className="img-fluid mb-4" alt="" src={imageFolder + image.paths[0]} />
+                        <img className="img img-fluid mb-4" alt="" src={imageFolder + image.paths[0]} />
                         <div className="imgDescription" data-bs-toggle="modal" data-bs-target="#imgModal" data-bs-paths={image.paths} onClick={toggleOpen}>
                             <p className="imgName" data-bs-paths={image.paths}>{image.name}</p>
                         </div>
@@ -112,11 +112,7 @@ export const Photography = () => {
                     <div className="modal-content">
                         {/*Images are added inside modal-body when a user clicks on the image*/}
                         <div className="modal-body">
-                            <div className="container-fluid">
-                                <div id="modalBody" className="row">
-
-                                </div>
-                            </div>
+                            
                         </div>
                     </div>
                 </div>
