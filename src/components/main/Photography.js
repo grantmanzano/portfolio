@@ -76,6 +76,7 @@ export const Photography = () => {
             modalBody.innerHTML = '';
             photoPathsArray.forEach(path => {
                 var newImage = document.createElement("img");
+                newImage.key = path
                 newImage.className = "imgInModal";
                 newImage.alt = "";
                 newImage.src = 'images/' + path;
@@ -88,7 +89,7 @@ export const Photography = () => {
             imgCollection.push(
                 <div className="col">
                     <div className="imgContainer" key={image.key}>
-                        <img className="img img-fluid mb-4" alt="" src={imageFolder + image.paths[0]} />
+                        <img className="img img-fluid mb-4" key={image.key} alt="" src={imageFolder + image.paths[0]} />
                         <div className="imgDescription" data-bs-toggle="modal" data-bs-target="#imgModal" data-bs-paths={image.paths} onClick={toggleOpen}>
                             <p className="imgName" data-bs-paths={image.paths}>{image.name}</p>
                         </div>
