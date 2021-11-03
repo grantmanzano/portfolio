@@ -39,7 +39,7 @@
     bottom: 1.3em;
 }
   
-.imgContainer:hover .imgDescription {
+.imgContainer:hover .imgDescription{
     bottom: 1.3em;
     opacity: 1;
 }
@@ -49,7 +49,7 @@
     transform: translateY(3em);
 }
   
-.imgContainer:hover .imgName {
+.imgContainer:hover .imgName{
     transform: translateY(0);
 }
 

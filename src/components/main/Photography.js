@@ -56,6 +56,12 @@ let imagesPath = [
         name: "More",
         location: "Montreal",
         paths: ["portraits/1.jpg", "portraits/3.jpg", "portraits/6.jpg", "portraits/7.jpg", "portraits/8.jpg", "portraits/11.jpg", "portraits/14.jpg", "portraits/15.jpg", "portraits/16.jpg", "portraits/17.jpg", "portraits/18.jpg", "portraits/24.jpg", "portraits/19.jpg", "portraits/20.jpg", "portraits/21.jpg", "portraits/25.jpg"]
+    },
+    {
+        key: 10,
+        name: "Axel",
+        location: "Atwater",
+        paths: ["portraits/8.jpg"]
     }
 ]
 
@@ -71,6 +77,7 @@ export const Photography = () => {
             // Extract info from data-bs-* attributes
             var photoPathsString = photo.getAttribute('data-bs-paths');
 
+            // Create image objects and add them in the array
             var photoPathsArray = photoPathsString.split(',');
             let modalBody = document.getElementsByClassName('modal-body')[0];
             modalBody.innerHTML = '';
