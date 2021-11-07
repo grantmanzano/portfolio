@@ -5,15 +5,15 @@ const imageFolder = "images/";
 let imagesPath = [
     {
         key: 1,
-        name: "Emma",
-        location: "Old Port",
-        paths: ["emma/3.jpg", "emma/1.jpg"],
+        name: "Axel",
+        location: "Shaughnessy Village",
+        paths: ["axel/1.jpg", "axel/2.jpg"],
     },
     {
         key: 2,
-        name: "Loc",
-        location: "Atwater Market",
-        paths: ["loc/1.jpg", "loc/2.jpg", "loc/3.jpg"]
+        name: "Spike",
+        location: "Jarry Park",
+        paths: ["spike/1.jpg", "spike/2.jpg", "spike/3.jpg", "spike/4.jpg", "spike/5.jpg", "spike/6.jpg"]
     },
     {
         key: 3,
@@ -41,9 +41,9 @@ let imagesPath = [
     },
     {
         key: 7,
-        name: "Strangers",
-        location: "Oratoire St-Joseph",
-        paths: ["portraits/12.jpg", "portraits/13.jpg"]
+        name: "Loc",
+        location: "Atwater Market",
+        paths: ["loc/1.jpg", "loc/2.jpg", "loc/3.jpg"]
     },
     {
         key: 8,
@@ -53,15 +53,27 @@ let imagesPath = [
     },
     {
         key: 9,
-        name: "More",
-        location: "Montreal",
-        paths: ["portraits/1.jpg", "portraits/3.jpg", "portraits/6.jpg", "portraits/7.jpg", "portraits/8.jpg", "portraits/11.jpg", "portraits/14.jpg", "portraits/15.jpg", "portraits/16.jpg", "portraits/17.jpg", "portraits/18.jpg", "portraits/24.jpg", "portraits/19.jpg", "portraits/20.jpg", "portraits/21.jpg", "portraits/25.jpg"]
+        name: "Strangers",
+        location: "Oratoire St-Joseph",
+        paths: ["portraits/12.jpg", "portraits/13.jpg"]
     },
     {
         key: 10,
-        name: "Axel",
-        location: "Atwater",
-        paths: ["portraits/8.jpg"]
+        name: "Emma",
+        location: "Clocktower",
+        paths: ["emma/3.jpg", "emma/1.jpg"],
+    },
+    {
+        key: 11,
+        name: "Manang's maternity",
+        location: "Villa",
+        paths: ["maternity/1.jpg", "maternity/2.jpg", "maternity/3.jpg", "maternity/4.jpg", "maternity/5.jpg", "maternity/6.jpg"]
+    },
+    {
+        key: 12,
+        name: "More",
+        location: "Montreal",
+        paths: ["portraits/1.jpg", "portraits/3.jpg", "portraits/6.jpg", "portraits/7.jpg", "portraits/8.jpg", "portraits/11.jpg", "portraits/14.jpg", "portraits/15.jpg", "portraits/16.jpg", "portraits/17.jpg", "portraits/18.jpg", "portraits/24.jpg", "portraits/19.jpg", "portraits/20.jpg", "portraits/21.jpg", "portraits/25.jpg"]
     }
 ]
 
