@@ -30,7 +30,8 @@ class GitTerminal extends React.Component {
                                 <p>$ git --help</p>
                                 <div>
                                     <Quicklinks />
-                                    <p className="selfDescription">I am a self-motivated individual always looking to expand my knowledge in different domains. Coffee, food, music, photography, code... throw them all my way!</p>
+                                    <br/>
+                                    <br/>
                                 </div>
                             </div>
                         </div>

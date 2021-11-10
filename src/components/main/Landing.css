@@ -1,0 +1,36 @@
+#landing{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.name{
+    color: #26542F;
+    font-size: 65px;
+    letter-spacing: 0.4em;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.flexEnd{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bio{
+    color: #FFFAFF;
+    letter-spacing: 0.1em;
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 2.5;
+    text-align: justify;
+}
+
+.fullHeightContainer{
+    height: 100vh !important;
+}
+
+.welcome{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
